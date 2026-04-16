@@ -1,22 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <h1>Hi, I'm Alusine 👋</h1>
-  <p>Computer Science Graduate | Web Developer</p>
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Hi, I'm Alusine 👋</h1>
+    <p>Frontend Developer | Computer Science Graduate</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Recipe Website</li>
-    <li>Coming Soon...</li>
-  </ul>
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      I build responsive and modern websites using HTML, CSS, and JavaScript.
+      I enjoy turning ideas into clean, functional web experiences.
+    </p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Recipe Website</h3>
+        <p>Simple recipe page built with HTML & CSS.</p>
+      </div>
+
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>My personal responsive portfolio project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Coming Soon</h3>
+        <p>More projects in development...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Available for freelance work</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Alusine. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
